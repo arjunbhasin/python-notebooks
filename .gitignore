@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saved models / checkpoints
+saved_models/
+*.zip
+
+# Animations
+*.mp4
+
+# OS
+.DS_Store
