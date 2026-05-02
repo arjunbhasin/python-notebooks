@@ -1,0 +1,16 @@
+name: notebooks
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - ipython
+  - pytorch::pytorch
+  - gymnasium
+  - pip
+  - pip:
+      - stable-baselines3

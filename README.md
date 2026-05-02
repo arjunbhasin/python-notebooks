@@ -29,6 +29,7 @@ A collection of from-scratch, self-contained Jupyter notebooks covering advanced
 | Notebook | Objective |
 |----------|-----------|
 | [Forward & Inverse Kinematics](robotics/kinematics/kinematics.ipynb) | Homogeneous transforms, Denavit-Hartenberg convention, geometric Jacobian, analytical and numerical inverse kinematics, singularity analysis |
+| [Lie-Algebraic Manipulability Control](robotics/lie-manipulability/lie_manipulability_mobile_manipulator.ipynb) | SE(3) body-frame errors, PUMA-like arm kinematics, whole-body mobile manipulator Jacobians, null-space manipulability control, omni vs differential-drive comparison |
 | [Lagrangian Dynamics](robotics/lagrangian-dynamics/lagrangian_dynamics.ipynb) | Euler-Lagrange equations for multi-body systems, standard manipulator equation $M(q)\ddot{q} + C(q,\dot{q})\dot{q} + g(q) = \tau$, computed torque control |
 | [Kalman Filter & Sensor Fusion](robotics/kalman-filter/kalman_filter.ipynb) | Bayesian estimation, predict-update cycle derivation, Extended Kalman Filter for nonlinear systems, IMU+GPS sensor fusion |
 
